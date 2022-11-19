@@ -1,0 +1,319 @@
+
+
+
+body{
+    background-color: #fff7db ;
+    width: 900px;
+    margin: auto;
+    
+
+}
+
+/*--------------------------------------------Header-------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 20px 20px 20px;
+}
+
+/*---------------Titre et logo----------------*/
+
+header #titre {
+    text-decoration: none;
+    color: black;
+}
+
+.titre{
+    display: flex;
+    align-items: flex-end;
+    height: 80px;
+}
+
+.titre p{
+    height: 60px;
+    width: 59px;
+    line-height: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    line-height: 0px;
+}
+
+h2{
+    font-family: 'Day Roman', serif;
+    font-size: 1.1em;
+    margin: 0px;
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-end;       
+}
+
+/*--------------Nav----------------*/
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav li{
+    font-family: 'Crimson Text', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav a{
+    font-size: 1.3em;
+    color:#181818;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/*-----------------------------------------Body-----------------------------------*/
+.main{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*-------------Separation--------------*/
+
+.separation {
+    width: 900px;
+    height: 3px;
+    background-image: url(images/separateur.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+    
+/*------------Baniere--------------------*/
+
+.baniere{
+    background-image: url(images/sanfrancisco.jpg);
+    height: 189px;
+    width: 820px ;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 3px;
+    background-size: 100%;
+    margin-top: 15px;
+
+}
+
+.description_baniere{
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 860px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px ;
+
+}
+
+.description_baniere p {
+    margin-left:5px;
+    color: rgb(255, 255, 255);
+    font-family:"Day roman";
+    font-size:0.72em ;
+    line-height: 1px;
+
+}
+
+
+.description_baniere a{
+    background-image: url(images/fond_degraderouge.png);
+    color: white;
+    font-family: "day roman";
+    margin: 3px 5px 3px 0px;
+    border: 1px #760001 solid;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.78em;
+    padding:3px 6px ;
+    transition: 0.2s;   
+}
+
+.description_baniere a:hover{
+    background-image: url(images/fond_degraderouge2.png);
+    transition: 0.2s;
+}
+
+/*-----------------Presentation---------------*/
+.presentation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+article{
+    width: 550px;
+    font-size: 0.85em;
+}
+
+.titre_texte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.titre_texte p {
+    margin: 0px 5px 0px 0px;
+    line-height: 0px;
+
+}
+
+article h3{
+    font-size: 1.2em;
+    font-family: "day roman";
+}
+article p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 270px;
+}
+
+aside div{
+    background-color: #6f6a63;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+aside h3{
+    font-size: 1em;
+    font-family: "day roman";
+    font-weight: normal;
+    color: white;
+}
+
+.image_zozor{
+    margin: 0px 0px 10px 0px;
+}
+
+aside p {
+    font-family: "day roman";
+    font-size: 0.8em;
+    color: white;
+    margin: 0px 10px 10px 10px;
+    
+}
+
+
+.bulle{
+    margin-right:0px ;
+    margin-left: 2px;
+}
+
+.logo_rs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:10px;
+    width: 248px;
+    
+
+}
+
+/*----------------------------------------Footer*-----------------------------------*/
+footer{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Day roman;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
+
+.ico_haut{ 
+    margin: 0px;  
+    position:absolute;  
+}
+
+.separation_ombre {
+    width: 900px;
+    height: 14px;
+    background-image: url(images/ombre.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+.main_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 820px;
+}
+
+.tweet{
+    width: 200px;
+    
+}
+
+.mes_photos{
+    width: 273px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.photo img{
+    height: 80%;
+}
+
+
+.mes_amis{
+    width: 273px;
+}
+
+.listes_amis{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+ footer ul {
+    list-style-image: url(images/ico_liensexterne.png);
+    padding: 0px 20px
+    
+ }
+
+ footer a{
+    color: #760001;
+    text-decoration: none;
+ }
+
+ footer a:hover{
+    color: #760001;
+    font-weight: bolder;
+ }
+
+ 
